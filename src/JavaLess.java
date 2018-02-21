@@ -18,10 +18,6 @@ public class JavaLess {
 	private static BufferedReader in;
 	private static Scanner;
 	
-	//Scanner
-	
-	public scanner()
-	
 	//random generator
 	
 	private static Random rnd = new Random();
