@@ -2,7 +2,7 @@ import java.io.*;
 
 /*
  * Name: JavaLess
- * Author: Matej Hakoš
+ * Author: Matej Hakos
  * Version: 1.27
  */
 import java.util.Random;
@@ -16,6 +16,11 @@ public class JavaLess {
 	public static double TWO_PI = Math.PI*2;
 	
 	private static BufferedReader in;
+	private static Scanner;
+	
+	//Scanner
+	
+	public scanner()
 	
 	//random generator
 	
@@ -371,22 +376,9 @@ public class JavaLess {
 	
 	//random from array
 	
-	public static int random(int []a){
+	public static int random(Object []a){
 		return a[rnd.nextInt(a.length)];
-	}
-	public static double random(double []a){
-		return a[rnd.nextInt(a.length)];
-	}
-	public static float random(float []a){
-		return a[rnd.nextInt(a.length)];
-	}
-	public static long random(long []a){
-		return a[rnd.nextInt(a.length)];
-	}
-	public static String random(String []a){
-		return a[rnd.nextInt(a.length)];
-	}
-	
+	}	
 	//open file
 	
 	public static void fopen(String dir) throws IOException{
@@ -396,4 +388,7 @@ public class JavaLess {
 		// TODO Auto-generated method stub
 		in.close();
 	}
+	
+	//Date and time
+	
 }
