@@ -2,7 +2,7 @@ import java.io.*;
 
 /*
  * Name: JavaLess
- * Author: Matej Hakoö
+ * Author: Matej Hako≈°
  * Version: 1.27
  */
 import java.util.Random;
@@ -395,9 +395,5 @@ public class JavaLess {
 	public void fclose() throws IOException {
 		// TODO Auto-generated method stub
 		in.close();
-	}
-	//time
-	public int day(){
-		return 0;
 	}
 }
