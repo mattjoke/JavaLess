@@ -1,5 +1,5 @@
 import java.io.*;
-
+import java.util.Calendar;
 /*
  * Name: JavaLess
  * Author: Matej Hakos
@@ -386,5 +386,15 @@ public class JavaLess {
 	}
 	
 	//Date and time
+	private static Calendar c = Calendar.getInstance();
 	
+	public static int day() {
+		return c.get(Calendar.HOUR_OF_DAY);
+	}
+	public static int minute() {
+		return c.get(Calendar.MINUTE);
+	}
+	public static int second() {
+		return c.get(Calendar.SECOND);
+	}
 }
