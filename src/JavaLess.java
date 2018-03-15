@@ -47,6 +47,42 @@ public class JavaLess {
 		System.out.println();
 	}
 	
+	public static void println(int[] a) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+	}
+	public static void println(double[] a) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+	}
+	public static void println(float[] a) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+	}
+	public static void println(long[] a) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+	}
+	public static void println(String[] a) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+	}
+	public static void println(char[] a) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+	}
 	public static void println(Object[] a) {
 		// TODO Auto-generated method stub
 		for (int i = 0; i < a.length; i++) {
