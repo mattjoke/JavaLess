@@ -47,3 +47,22 @@ public class name **extends JavaLess** ....
 **insertionsort(int[] arr, boolean choice)** - sorts using insertion sort, when choice is true, sort is in ascending order, when false, sort is in descending order
 
 #### Math
+	- when talking about number, I usually mean float,double,int or long
+
+**abs(number)** - returns absolute number
+
+**round(number,choice)** - rounds number, when true, returned number is higher than number inputed(e.g. 5.25 -> 6.0). When false, returned number is lower than inputed number (e.g. 5.64 -> 5.0).
+
+**ceil(number)** - always returns higher or equal number
+
+**floor(number)** - converts from float/double to int
+
+**log(number)** - returns natural logarithm 
+
+**log10(number)** - returns logarithm with base 10
+
+**pow(number, power)** - returns number powered on second number
+
+**sq(number)** - returns squared number
+
+**sqrt(number)** - returns square root of number
