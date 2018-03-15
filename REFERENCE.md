@@ -33,25 +33,25 @@ public class name **extends JavaLess** ....
 
 **print(Object o)** - prints value on console - without \n
 
-**println(int/long/double/float [] arr)** - prints whole array on console
+**println(array)** - prints whole array on console
 
 #### Sorts
-**sort(int[] arr)** - sorts using bubble sort
+**sort(array)** - sorts using bubble sort
 
-**sort(int[] arr, boolean choice)** - sorts using bubble sort, when choice is true, sort is in ascending order, when false, sort is in descending order
+**sort(array, choice)** - sorts using bubble sort, when choice is true, sort is in ascending order, when false, sort is in descending order
 
-**selectionSort(int[] array, boolean choice)** - sorts using selection sort, when choice is true, sort is in ascending order, when false, sort is in descending order
+**selectionSort(array, choice)** - sorts using selection sort, when choice is true, sort is in ascending order, when false, sort is in descending order
 
-**insertionsort(int[] arr)** - sorts using insertion sort
+**insertionsort(array)** - sorts using insertion sort
 
-**insertionsort(int[] arr, boolean choice)** - sorts using insertion sort, when choice is true, sort is in ascending order, when false, sort is in descending order
+**insertionsort(array, choice)** - sorts using insertion sort, when choice is true, sort is in ascending order, when false, sort is in descending order
 
 #### Math
 	- when talking about number, I usually mean float,double,int or long
 
 **abs(number)** - returns absolute number
 
-**round(number,choice)** - rounds number, when true, returned number is higher than number inputed(e.g. 5.25 -> 6.0). When false, returned number is lower than inputed number (e.g. 5.64 -> 5.0).
+**round(number,choice)** - rounds number, when true, returned number is higher than number inputed(e.g. 5.25 -> 6.0). When false, returned number is lower than inputed number (e.g. 5.25 -> 5.0).
 
 **ceil(number)** - always returns higher or equal number
 
@@ -66,3 +66,30 @@ public class name **extends JavaLess** ....
 **sq(number)** - returns squared number
 
 **sqrt(number)** - returns square root of number
+
+**max(number1,number2(and or number3))** - returns the highest number
+
+**max(array)** - returns the highest number from array (array can be unliminited (not really :D))
+
+**min(number1,number2(and or number3))** - returns the lowest number
+
+**min(array)** - returns the lowest number from array (array can be unliminited (not really :D))
+
+#### Array
+**random(array)** - returns random value from whole array
+
+#### File
+
+**fopen(filepath)** - opens file on given filepath
+
+**fclose** - closes opened file
+
+#### Date & time
+
+**hour** - returns current hour
+
+**minute** - returns current minute
+
+**second** - returns current second
+
+**mill** - returns current millisecond
