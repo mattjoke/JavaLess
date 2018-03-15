@@ -16,9 +16,12 @@ For example:
 public class name **extends JavaLess** .... 
 
 ## Constants
-**PI** - returns value of Pi\n
+**PI** - returns value of Pi
+
 **HALF_PI** - returns Pi/2
+
 **QUARTER_PI** - returns Pi/4
+
 **TWO_PI** - returns 2 * Pi
 
 ## Methods
