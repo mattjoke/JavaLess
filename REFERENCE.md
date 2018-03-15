@@ -6,10 +6,10 @@ I decided export JavaLess to jar file, because it can be easily exported/importe
 The lastest official release: https://goo.gl/oG5qoh
 
 Download that Jar and import it to your new project.
-#### How?
+### How?
 It's easy to do :). When creating new project click instead of finish to next, and on the Libraries tab select "Add External JARs". And then hit Finish.
 
-#### What else?
+### What else?
 It's ready to use in your project. Only one thing is necessary. You need to **extend** your main java project and also import JavaLess Package (Ctrl+Shift+O).
 For example: 
 
@@ -26,7 +26,7 @@ public class name **extends JavaLess** ....
 
 ## Methods
 
-#### Priting
+### Priting
 	-printing is shorter, but with same functionalities, e.g. println() = System.out.println()
 
 **println(Object o)** - prints value on console - \n
@@ -35,7 +35,7 @@ public class name **extends JavaLess** ....
 
 **println(array)** - prints whole array on console
 
-#### Sorts
+### Sorts
 **sort(array)** - sorts using bubble sort
 
 **sort(array, choice)** - sorts using bubble sort, when choice is true, sort is in ascending order, when false, sort is in descending order
@@ -46,7 +46,7 @@ public class name **extends JavaLess** ....
 
 **insertionsort(array, choice)** - sorts using insertion sort, when choice is true, sort is in ascending order, when false, sort is in descending order
 
-#### Math
+### Math
 	- when talking about number, I usually mean float,double,int or long
 
 **abs(number)** - returns absolute number
@@ -75,16 +75,16 @@ public class name **extends JavaLess** ....
 
 **min(array)** - returns the lowest number from array (array can be unliminited (not really :D))
 
-#### Array
+### Array
 **random(array)** - returns random value from whole array
 
-#### File
+### File
 
 **fopen(filepath)** - opens file on given filepath
 
 **fclose** - closes opened file
 
-#### Date & time
+### Date & time
 
 **hour** - returns current hour
 
