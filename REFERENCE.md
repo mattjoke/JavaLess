@@ -27,8 +27,18 @@ public class name **extends JavaLess** ....
 ## Methods
 
 #### Priting
--printing is shorter, but with same functionalities, e.g. println() = System.out.println()
+	-printing is shorter, but with same functionalities, e.g. println() = System.out.println()
 
 **println(Object o)** - prints value on console - \n
+
 **print(Object o)** - prints value on console - without \n
+
+
+**println(int/long/double/float [] arr)** - prints whole array on console
+
+#### Sorts
+**sort(int[] arr)** - sorts using bubble sort
+
+**sort(int[] arr, boolean choice)** - sorts using bubble sort, when choice is true, sort is in ascending order, when false, sort is in descending order
+
 **println(int/long/double/float [] arr)** - prints whole array on console
