@@ -41,12 +41,3 @@ public class name **extends JavaLess** ....
 **sort(int[] arr)** - sorts using bubble sort
 
 **sort(int[] arr, boolean choice)** - sorts using bubble sort, when choice is true, sort is in ascending order, when false, sort is in descending order
-
-**println(int/long/double/float [] arr)** - prints whole array on console
-
-**println(int/long/double/float [] arr)** - prints whole array on console
-
-#### Sorts
-**sort(int[] arr)** - sorts using bubble sort
-
-**sort(int[] arr, boolean choice)** - sorts using bubble sort, when choice is true, sort is in ascending order, when false, sort is in descending order
