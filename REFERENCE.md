@@ -32,6 +32,7 @@ public class name **extends JavaLess** ....
 **println(Object o)** - prints value on console - \n
 
 **print(Object o)** - prints value on console - without \n
+<<<<<<< HEAD
 
 **println(int/long/double/float [] arr)** - prints whole array on console
 
@@ -39,3 +40,6 @@ public class name **extends JavaLess** ....
 **sort(int[] arr)** - sorts using bubble sort
 
 **sort(int[] arr, boolean choice)** - sorts using bubble sort, when choice is true, sort is in ascending order, when false, sort is in descending order
+=======
+**println(int/long/double/float [] arr)** - prints whole array on console
+>>>>>>> 660b5f36d37b4de237816af569e9a3c3b430a6a0
