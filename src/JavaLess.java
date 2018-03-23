@@ -16,7 +16,6 @@ public class JavaLess {
 	public static double TWO_PI = Math.PI*2;
 	
 	private static BufferedReader in;
-	private static Scanner;
 	
 	//random generator
 	
@@ -408,7 +407,7 @@ public class JavaLess {
 	
 	//random from array
 	
-	public static int random(Object []a){
+	public static Object random(Object []a){
 		return a[rnd.nextInt(a.length)];
 	}	
 	//open file
