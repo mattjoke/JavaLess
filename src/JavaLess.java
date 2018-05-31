@@ -17,7 +17,7 @@ public class JavaLess {
 	
 	private static BufferedReader in;
 	
-	//random generator
+	//random generator - najs
 	
 	private static Random rnd = new Random();
 	
